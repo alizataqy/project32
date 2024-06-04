@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.gallery.GalleryFragment">
+    tools:context=".ui.slideshow.SlideshowFragment">
 
     <ListView
-        android:id="@+id/list_gallery"
+        android:id="@+id/list_slideshow"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"

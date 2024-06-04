@@ -1,4 +1,4 @@
-package com.example.project32.ui.gallery;
+package com.example.project32.ui.slideshow;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -15,20 +15,20 @@ import com.example.project32.R;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class GalleryFragment extends Fragment {
+public class SlideshowFragment extends Fragment {
 
     private ListView listView;
 
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View root = inflater.inflate(R.layout.fragment_gallery, container, false);
+        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
 
         // Find the ListView
-        listView = root.findViewById(R.id.list_gallery);
+        listView = root.findViewById(R.id.list_slideshow);
 
         // Sample data for the ListView
-        String[] data = {"UCOK", "MEMED", "PUNKY", "JAIDY", "RONALDO"};
+        String[] data = {"BAMBANG", "NARJI", "AGUS", "BUDY", "MESSI"};
         ArrayList<String> items = new ArrayList<>(Arrays.asList(data));
 
         // Setting up the adapter
